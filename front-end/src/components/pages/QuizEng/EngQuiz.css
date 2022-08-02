@@ -1,0 +1,30 @@
+.engquiz {
+    font-family: cursive;
+    color: darkblue;
+    text-align: center;
+  }  
+  
+  .engquiz-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px;
+    height: 35px;
+    top:563px;
+    bottom: auto;
+    left: 665px;
+    right: auto;
+  }
+
+  .engquiz-img {
+      height: 100%;
+    object-fit: contain;
+  }
+
+.engquiz-button{
+     width: 64px;
+    height: 32px;
+    text-align: center;
+ }
+  

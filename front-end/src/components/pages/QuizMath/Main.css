@@ -1,0 +1,30 @@
+.Options {
+    text-align: centre;
+    
+    padding: 7px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 23%;
+    flex-direction: column;
+    
+}
+
+.centreimage{
+    
+    align-self: centre;
+    padding: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 21%;
+
+}
+.selections{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100;
+    flex: 0.8;
+    justify-content: space-eve;
+}

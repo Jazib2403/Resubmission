@@ -1,0 +1,8 @@
+.searchbar {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+.searchbar-list li {
+    list-style-type: none;
+  }

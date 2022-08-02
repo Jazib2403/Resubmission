@@ -1,0 +1,130 @@
+h1 {
+ font-family: sans-serif ;
+color: transparent;
+background-image: url(https://media.giphy.com/media/xT9Ighw18Ay7f0cIjS/giphy.gif) ;
+background-position: center;
+-webkit-background-clip: text;
+text-align: center;
+margin-top: 100px;
+font-size: 80px;
+font-weight: 400px;
+}
+h2 {
+font-family: sans-serif;
+color: darkblue;
+text-align: center;
+margin-top: 100px;
+font-size: 40px;
+font-weight: 400px;
+}
+.img-selection{
+    width: 80%;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+   
+
+}
+.img-selection img:hover{
+    transform: scale(0.8) rotate(-15deg);
+    border-radius: 20px;
+    box-shadow: 0 32px 75px rgba(68, 77, 136, 0.2);
+} 
+
+.english{
+
+    width: 80%;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+ 
+} 
+
+.read{
+    color: darkblue;
+    font-size: 30px;
+    
+}
+
+
+
+.alphabet {
+    color: darkblue;
+    font-size: 30px;
+}
+
+
+.sense {
+    color: darkblue
+    font-size: 30px; 
+}
+.sense img:hover{
+    transform: scale(1.1);
+}
+
+
+h3 {
+font-size: 40px;
+color: darkblue;
+margin-top: 10px;
+text-align: center;
+
+}
+
+.mathprint{
+
+    width: 80%;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+ 
+} 
+.number{
+    color: darkblue;
+    font-size: 30px;
+}
+
+
+
+
+.equation{
+    color: darkblue;
+    font-size: 30px;
+}
+
+.equation img:hover{
+    transform: scale(1.1);
+}
+
+
+.planet{
+    color: darkblue;
+    font-size: 30px;
+}
+.planet img:hover{
+    transform: scale(1.1);
+}
+
+.experiment{
+    color: darkblue;
+    font-size: 30px;
+}
+.experiment img:hover{
+    transform: scale(1.1);
+}
+
+.arprint{
+    width: 80%;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+.arprint img:hover{
+    transform: scale(0.8) rotate(-15deg);
+    border-radius: 20px;
+    box-shadow: 0 32px 75px rgba(68, 77, 136, 0.2);
+}
