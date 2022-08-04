@@ -12,17 +12,19 @@ const FormJA = () => {
         <label>Title:</label>
         <input 
           type="text" 
+          name="title"
           required 
           value={title}
           onChange={(e) => setTitle(e.target.value)}
         />
-        <label>Blog body:</label>
+        <label>Name:</label>
         <textarea
+          name="text"
           required
           value={body}
           onChange={(e) => setBody(e.target.value)}
         ></textarea>
-        <label>page:</label>
+        <label>Suggestion:</label>
         <select
           value={author}
           onChange={(e) => setAuthor(e.target.value)}
@@ -34,7 +36,7 @@ const FormJA = () => {
           <option value="FAQ">FAQ</option>
           <option value="TnC">TnC</option>
         </select>
-        <button>Add Blog</button>
+        <input type="submit"/>
       </form>
     </div>
   );
