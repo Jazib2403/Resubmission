@@ -7,7 +7,7 @@ const FormJA = () => {
 
   return (
     <div className="create">
-      <h2>Add a New Blog</h2>
+      <h2>Add a New Suggestion</h2>
       <form>
         <label>Blog title:</label>
         <input 
@@ -30,7 +30,7 @@ const FormJA = () => {
           <option value="mario">mario</option>
           <option value="yoshi">yoshi</option>
         </select>
-        <button>Add Blog</button>
+        <button>Add Suggestion</button>
       </form>
     </div>
   );
